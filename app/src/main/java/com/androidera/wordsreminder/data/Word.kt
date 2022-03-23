@@ -1,4 +1,4 @@
-package com.androidera.wordsreminder
+package com.androidera.wordsreminder.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

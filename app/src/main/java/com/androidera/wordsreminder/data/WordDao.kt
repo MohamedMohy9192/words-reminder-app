@@ -1,9 +1,10 @@
-package com.androidera.wordsreminder
+package com.androidera.wordsreminder.data
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.androidera.wordsreminder.data.Word
 import kotlinx.coroutines.flow.Flow
 
 @Dao

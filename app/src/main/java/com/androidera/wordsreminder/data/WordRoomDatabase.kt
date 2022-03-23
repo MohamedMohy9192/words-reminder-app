@@ -1,4 +1,4 @@
-package com.androidera.wordsreminder
+package com.androidera.wordsreminder.data
 
 import android.content.Context
 import androidx.room.Database
