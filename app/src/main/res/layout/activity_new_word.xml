@@ -5,6 +5,9 @@
 
     <data>
 
+        <variable
+            name="newWordActivity"
+            type="com.androidera.wordsreminder.NewWordActivity" />
     </data>
 
     <LinearLayout
@@ -30,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/big_padding"
             android:background="@color/purple_500"
+            android:onClick="@{()-> newWordActivity.setReplayResult()}"
             android:text="@string/button_save"
             android:textColor="@color/white" />
     </LinearLayout>
