@@ -4,7 +4,6 @@ import android.app.Application
 import com.androidera.wordsreminder.data.WordRoomDatabase
 import com.androidera.wordsreminder.repository.WordRepository
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 
 class WordsApplication : Application() {
